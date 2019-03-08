@@ -21,7 +21,15 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Team A"
-                android:textSize="20sp" />
+                android:textSize="40sp"
+                android:textColor="#000"/>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/lakers"
+                android:scaleType="centerInside"
+                />
 
             <TextView
                 android:id="@+id/TeamAScore"
@@ -30,7 +38,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="0"
-                android:textSize="20sp" />
+                android:textSize="30sp"
+                android:textColor="#000"/>
 
 
             <Button
@@ -62,7 +71,14 @@
 
 
         </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ff00ff"
+            android:id="@+id/LOC"
+            >
 
+        </View>
 
         <LinearLayout
             android:layout_width="0dp"
@@ -75,7 +91,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Team B"
-                android:textSize="20sp" />
+                android:textSize="40sp"
+                android:textColor="#000"/>
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/chicago"
+                android:scaleType="centerInside"
+                />
 
             <TextView
                 android:id="@+id/TeamBScore"
@@ -84,7 +107,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="0"
-                android:textSize="20sp"
+                android:textSize="30sp"
+                android:textColor="#000"
 
                 />
 
@@ -117,6 +141,7 @@
 
 
         </LinearLayout>
+
 
     </LinearLayout>
 
