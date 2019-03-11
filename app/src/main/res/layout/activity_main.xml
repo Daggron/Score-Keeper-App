@@ -21,15 +21,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Team A"
-                android:textSize="40sp"
-                android:textColor="#000"/>
+                android:textColor="#000"
+                android:textSize="40sp" />
 
             <android.support.v7.widget.AppCompatImageView
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
-                android:src="@drawable/lakers"
                 android:scaleType="centerInside"
-                />
+                android:src="@drawable/lakers" />
 
             <TextView
                 android:id="@+id/TeamAScore"
@@ -38,8 +37,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="0"
-                android:textSize="30sp"
-                android:textColor="#000"/>
+                android:textColor="#000"
+                android:textSize="30sp" />
 
 
             <Button
@@ -71,12 +70,12 @@
 
 
         </LinearLayout>
+
         <View
+            android:id="@+id/LOC"
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="#ff00ff"
-            android:id="@+id/LOC"
-            >
+            android:background="#ff00ff">
 
         </View>
 
@@ -91,14 +90,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Team B"
-                android:textSize="40sp"
-                android:textColor="#000"/>
+                android:textColor="#000"
+                android:textSize="40sp" />
+
             <android.support.v7.widget.AppCompatImageView
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
-                android:src="@drawable/chicago"
                 android:scaleType="centerInside"
-                />
+                android:src="@drawable/chicago" />
 
             <TextView
                 android:id="@+id/TeamBScore"
@@ -107,8 +106,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="0"
-                android:textSize="30sp"
                 android:textColor="#000"
+                android:textSize="30sp"
 
                 />
 
@@ -151,13 +150,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
         android:background="#00E7F3"
         android:onClick="ResetScores"
         android:text="Reset"
         android:textColor="#e6819d"
-        android:textSize="20sp"
-        android:layout_marginBottom="24dp"
-        />
+        android:textSize="20sp" />
 
 </RelativeLayout>
 
